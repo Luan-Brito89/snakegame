@@ -1,0 +1,71 @@
+body{
+    font-style: inherit;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 95vh;
+    width: 95;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    position: relative;
+    
+    
+}
+
+/*responsividade*/
+
+@media only screen and (max-width: 599px){
+    body{
+        background-color: rgb(137, 247, 173);
+        width: 100%;
+        background-position: 40% 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+    body{
+        background-image: url("img/snake\ game\ 2.png");
+        background-size: 100%;
+        color:tomato;
+
+        
+        
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url("img/512x512\ snake\ game.jpg");
+        background-size: 100%;
+    }    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    body{
+        background-image: url("img/512x512\ snake\ game.jpg");
+        
+        background-size: 100%;
+        
+        
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    body{
+        background-image: url("img/snake\ game\ 2.png");
+        width: 95%;
+        height: 95%;
+        color: tomato;
+        opacity: 70%;
+        
+    }
+
+}
